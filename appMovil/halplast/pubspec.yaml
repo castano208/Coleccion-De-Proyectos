@@ -1,0 +1,31 @@
+name: halplast
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.3
+  socket_io: ^1.0.1
+  provider: ^6.1.2
+  cupertino_icons: ^1.0.6
+  socket_io_client: ^1.0.2
+  another_flushbar: ^1.10.28
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+  webdev: ^3.5.0
+
+
+flutter:
+
+  uses-material-design: true
