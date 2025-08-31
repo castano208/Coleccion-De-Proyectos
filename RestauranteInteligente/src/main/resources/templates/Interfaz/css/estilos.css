@@ -1,0 +1,52 @@
+/* -- Header -- */
+.navbar {
+	margin-bottom: 0;
+}
+
+.jumbotron {
+	background: #428BCA
+	color:#fff;
+	padding:20px 0;
+}
+
+/* -- Post */
+.main
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.posts {
+	padding-bottom:20px;
+	margin-bottom:20px;
+	border-bottom:1px solid #999;
+}
+
+.posts .post-title a{
+	color:#400;
+}
+
+.posts .thumb {
+	margin-right:10px;
+	width:40%; 
+}
+
+.post .thumb img {
+	width: 100%;
+
+}
+
+.posts .contenedor-botones {
+	width: 100%;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination li a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}

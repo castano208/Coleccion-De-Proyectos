@@ -1,0 +1,202 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<!DOCTYPE html>
+<html lang= "es">
+
+<style>
+.navbar {
+	margin-bottom: 0;
+}
+
+.jumbotron {
+	background: #428BCA
+	color:#fff;
+	padding:20px 0;
+}
+
+/* -- Post */
+.main
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.posts {
+	padding-bottom:20px;
+	margin-bottom:20px;
+	border-bottom:1px solid #999;
+}
+
+.posts .post-title a{
+	color:#400;
+}
+
+.posts .thumb {
+	margin-right:10px;
+	width:40%; 
+}
+
+.post .thumb img { 
+	width: 100%;
+
+}
+
+.posts .contenedor-botones {
+	width: 100%;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination li a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+</style>
+
+
+<head>
+
+ <meta charset="utf-8">
+ <title>Restaurantes</title>
+ <meta name="viewport" content="widt=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+ <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+ <link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+</head>
+
+<body>
+ 
+ <header>
+
+  <!-- Aca se agrega un nav para poder crear el menu de navegacion de la pagina -->
+
+  <nav class="navbar navbar-inverse navbar-static-top" role="navigation"> <!-- el inverse es para que cambien los colores y el static top es para que el menu se mantenga en la parte de arriba de la pagina -->
+
+   <div class="container">
+    <div class="navbar-header">
+    <!-- Esto es para hacer el boton que se muestra cuando el dispositivo es mediano-->
+     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion" aria-expended="false" aria-controls="navbar">
+      <span class="sr-only">Ocultar</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+     </button>
+     <a href="#" class="navbar-brand">Restaurantes</a> 
+    </div>
+
+    <!--menu-->
+
+    <div class="collapse navbar-collapse" id="navegacion">
+
+     <ul class="nav navbar-nav">
+      
+      <li><a href="#">Inicio</a></li>
+
+      <li><a href="#">Info</a></li>
+
+      <li><a href="#">Contacto</a></li>
+     </ul> 
+<ul class="nav navbar-nav navbar-right">
+     <li><a href="#">Administrar</a></li>
+     <li><a href="#">Usuario</a></li>
+ </ul>
+ 
+    </div>
+   </div>
+  </nav>
+ </header>
+
+ <section class="jumbotron">
+  <div class="container">
+   <h1>Restaurantes</h1>
+   <p>Encuentra tu restaurante preferido desde cualquier lugar en el que estes.</p>
+  </div>
+ </section>
+
+
+
+ <section class="main container">
+ 	<div class="row">
+ 		<section class="posts col-md-9">
+ 			<div class="ubicacion">
+ 			   <ol class="breacrumb">
+ 			 	  <li><a href="#">Inicio</a></li>
+ 			 	  <li><a href="#">Restaurantes</a></li>
+ 			   </ol>
+ 			</div>
+
+            <article class="posts clearfix">
+            	<a href="#" class="thumb pull-left">
+            		<img class="img-thumbnail" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrvyvKxUI7BmrCiy3e8Qhs9psU6lEaEzOO-iki9zcGGl150_IR"> 
+            	</a>
+            	<h2 class="post-title">
+            		<a href="#">Kokoriko</a> <!--titulo para reedirigir -->
+            	</h2>
+            	<p><span class="post-fecha">26 de febrero del 2019</span> por <span class="post-autor"><a href="#">Clecksoft</a><span></p>
+            		<p class="post-contenido text-justify">
+            			Kokoriko es una empresa mundialmente conocida por ssus buenos productos, esta es una de las empresas en el servicio de el mundo por su gran caldad de productos... Kokoriko es una empresa mundialmente conocida por ssus buenos productos, esta es una de las empresas en el servicio de el mundo por su gran caldad de productos... Kokoriko es una empresa mundialmente conocida por ssus buenos productos, esta es una de las empresas en el servicio de el mundo por su gran caldad de productos...
+            		</p>
+            		<div class="contenedor-botones">
+            			<a href="#" class="btn btn-primary">Entrar</a>
+            			<a href="#" class="btn btn-success">Comentarios</a>
+            		</div>
+            </article>
+
+
+            <article class="posts clearfix">
+            	<a href="#" class="thumb pull-left">
+            		<img class="img-thumbnail" src="https://logosmarcas.com/wp-content/uploads/2018/05/McDonalds-S%C3%ADmbolo.png">
+            	</a>
+            	<h2 class="post-title">
+            		<a href="#">Macdonals</a> <!--titulo para reedirigir -->
+            	</h2>
+            	<p><span class="post-fecha">26 de febrero del 2019</span> por <span class="post-autor"><a href="#">Clecksoft</a><span></p>
+            		<p class="post-contenido text-justify">
+            			Macdonals es una empresa mundialmente conocida por ssus buenos productos, esta es una de las empresas en el servicio de... Kokoriko es una empresa mundialmente conocida por ssus buenos productos, esta es una de las empresas en el servicio de el mundo por su gran caldad de productos... Kokoriko es una empresa mundialmente conocida por ssus buenos productos, esta es una de las empresas en el servicio de el mundo por su gran caldad de productos...
+            		</p>
+            		<div class="contenedor-botones">
+            			<a href="#" class="btn btn-primary">Entrar</a>
+            			<a href="#" class="btn btn-success">Comentarios</a>
+            		</div>
+            </article>
+
+            <!-- cualquier tipo de navegacion, en este caso paginacion --> 
+            <nav>
+            	<div class="center-block">
+            		<ul class="paginacion pagination">
+            			<li class="disabled"><a href="#">&laquo;<span class="sr-only">Anterior</span></a>
+            				<li class="active"><a href="#">1</a></li>
+            				<li><a href="#">1</a></li>
+            				<li><a href="#">2</a></li>
+            				<li><a href="#">3</a></li>
+            				<li><a href="#">4</a></li>
+            				<li><a href="#">5</a></li>
+            				<li><a href="#">&raquo; <span class="sr-">Siguiente</span></a></li>
+            		</ul>
+            	</div>
+            </nav>
+
+
+ 		</section>
+ 	</div>
+ </section>
+
+ <footer></footer>
+
+
+</body>
+
+</html>﻿
